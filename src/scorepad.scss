@@ -1,0 +1,22 @@
+@import './colors.scss';
+
+.scorepad-container {
+  input {
+    height: 4rem;
+    padding: 0%;
+  }
+  .cards-row {
+    height: 4rem;
+    svg {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.blue-cards {
+  background-color: var(--blue);
+  input {
+    background-color: var(--blue);
+    border: none;
+  }
+}
