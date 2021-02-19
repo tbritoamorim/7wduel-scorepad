@@ -13,7 +13,7 @@ export default function Scorepad() {
         <table>
           <thead>
             <tr>
-              <th>Categoria</th>
+              <th>A</th>
               <th><input type='text' placeholder='nome'></input></th>
               <th><input type='text' placeholder='nome'></input></th>
             </tr>
@@ -27,6 +27,11 @@ export default function Scorepad() {
             <TableRow color="science" icon="Science" />
             <TableRow color="coins" icon="Coins" />
             <TableRow color="military" icon="Military" />
+            <tr>
+              <td className="sigma">Σ</td>
+              <td><span id="result1" className="sigma">0</span></td>
+              <td><span id="result2" className="sigma">0</span></td>
+            </tr>
           </tbody>
         </table>
       </div>

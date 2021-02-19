@@ -1,11 +1,34 @@
 @import './colors.scss';
 
 .scorepad-container {
+  table {
+    border-collapse: collapse;
+  }
+
+  tr td:first-child {
+    border-left: 3px solid black;
+  }
+
+  tr:last-child {
+    border-bottom: 3px solid black;
+  }
+
+  tr th:first-child {
+    border-left: 3px solid black;
+  }
+
+  td, th {
+    border-right: 3px solid black;
+    border-top: 1px solid black;
+  }
+
   input {
     height: 4rem;
     width: 100%;
     padding: 0%;
+    border: none;
   }
+
   .cards-row {
     height: 4rem;
     svg {
@@ -13,68 +36,74 @@
       height: 75%;
     }
   }
-}
-
-.blue {
-  background-color: var(--blue);
-  input {
+  
+  .blue {
     background-color: var(--blue);
-    border: none;
+    input {
+      background-color: var(--blue);
+    }
   }
-}
-
-.green {
-  background-color: var(--green);
-  input {
+  
+  .green {
     background-color: var(--green);
-    border: none;
+    input {
+      background-color: var(--green);
+    }
   }
-}
-
-.yellow {
-  background-color: var(--yellow);
-  input {
+  
+  .yellow {
     background-color: var(--yellow);
-    border: none;
+    input {
+      background-color: var(--yellow);
+    }
   }
-}
-
-.purple {
-  background-color: var(--purple);
-  input {
+  
+  .purple {
     background-color: var(--purple);
-    border: none;
+    input {
+      background-color: var(--purple);
+    }
   }
-}
-
-.pyramid {
-  background-color: var(--pyramid);
-  input {
+  
+  .pyramid {
     background-color: var(--pyramid);
-    border: none;
+    input {
+      background-color: var(--pyramid);
+    }
   }
-}
-
-.science {
-  background-color: var(--science);
-  input {
+  
+  .science {
     background-color: var(--science);
-    border: none;
+    input {
+      background-color: var(--science);
+    }
   }
-}
-
-.coins {
-  background-color: var(--yellow);
-  input {
+  
+  .coins {
     background-color: var(--yellow);
-    border: none;
+    input {
+      background-color: var(--yellow);
+    }
   }
-}
-
-.military {
-  background-color: var(--military);
-  input {
+  
+  .military {
     background-color: var(--military);
-    border: none;
+    input {
+      background-color: var(--military);
+    }
+  }
+
+  .sigma {
+    font-family: Georgia, serif;
+    background-color: black;
+    color: #FFF;
+    font-size: 3.55rem;
+    text-align: center;
+  }
+
+  span.sigma {
+    color: #000;
+    background-color: #FFF;
+    display: block;
   }
 }
