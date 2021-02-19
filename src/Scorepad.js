@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { ReactComponent as BlueCard} from "./icons/blue-cards.svg";
+/*import { ReactComponent as BlueCard} from "./icons/blue-cards.svg";
 import greenCard from "./icons/green-cards.svg";
 import yellowCard from "./icons/yellow-cards.svg";
-import purpleCard from "./icons/purple-cards.svg";
+import purpleCard from "./icons/purple-cards.svg";*/
 import './scorepad.scss';
+import TableRow from './TableRow';
 
 
 export default function Scorepad() {
@@ -18,17 +19,14 @@ export default function Scorepad() {
             </tr>
           </thead>
           <tbody>
-            <tr className="blue-cards">
-              <td className="d-flex justify-center cards-row">
-                <BlueCard />
-              </td>
-              <td>
-                <input type="number"></input>
-              </td>
-              <td>
-                <input type="number"></input>
-              </td>
-            </tr>
+            <TableRow color="blue" icon="BlueCard" />
+            <TableRow color="green" icon="GreenCard" />
+            <TableRow color="yellow" icon="YellowCard" />
+            <TableRow color="purple" icon="PurpleCard" />
+            <TableRow color="pyramid" icon="Pyramid" />
+            <TableRow color="science" icon="Science" />
+            <TableRow color="coins" icon="Coins" />
+            <TableRow color="military" icon="Military" />
           </tbody>
         </table>
       </div>

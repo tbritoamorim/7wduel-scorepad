@@ -9,14 +9,71 @@
     height: 4rem;
     svg {
       margin: 0.5rem 0;
+      height: 75%;
     }
   }
 }
 
-.blue-cards {
+.blue {
   background-color: var(--blue);
   input {
     background-color: var(--blue);
+    border: none;
+  }
+}
+
+.green {
+  background-color: var(--green);
+  input {
+    background-color: var(--green);
+    border: none;
+  }
+}
+
+.yellow {
+  background-color: var(--yellow);
+  input {
+    background-color: var(--yellow);
+    border: none;
+  }
+}
+
+.purple {
+  background-color: var(--purple);
+  input {
+    background-color: var(--purple);
+    border: none;
+  }
+}
+
+.pyramid {
+  background-color: var(--pyramid);
+  input {
+    background-color: var(--pyramid);
+    border: none;
+  }
+}
+
+.science {
+  background-color: var(--science);
+  input {
+    background-color: var(--science);
+    border: none;
+  }
+}
+
+.coins {
+  background-color: var(--coins);
+  input {
+    background-color: var(--coins);
+    border: none;
+  }
+}
+
+.military {
+  background-color: var(--military);
+  input {
+    background-color: var(--military);
     border: none;
   }
 }
