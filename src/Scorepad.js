@@ -9,7 +9,7 @@ import TableRow from './TableRow';
 
 export default function Scorepad() {
     return (
-      <div className="scorepad-container">
+      <div className="scorepad-container d-flex justify-center">
         <table>
           <thead>
             <tr>
