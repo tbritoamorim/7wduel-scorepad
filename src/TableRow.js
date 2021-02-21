@@ -1,11 +1,9 @@
-import { React, useState} from 'react';
+import { React } from 'react';
 import Icon from './icon';
-import Sum from './sum';
 
 export default function TableRow(props) {
     const changed = e => {
-        console.log(e.target.value);
-        props.sumF(e.target.value != '' ? parseInt(e.target.value) : 0);
+        e.target.value !== '' ? props.sumF(props.color, parseInt(e.target.value), e.target.className) : props.sumF(props.color, 0, e.target.className);
     }
 
     return (
@@ -14,10 +12,10 @@ export default function TableRow(props) {
                 <Icon name={props.icon} />                                       
             </td>
             <td>
-                <input type="number" onChange={changed}></input>
+                <input type="number" onBlur={changed} className="P1"></input>
             </td>
             <td>
-                <input type="number" ></input>
+                <input type="number"onBlur={changed} className="P2"></input>
             </td>
         </tr>
     );
