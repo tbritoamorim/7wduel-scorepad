@@ -248,6 +248,66 @@ function Icon(props) {
               </g>
             </svg>
           );
+        case "Senate":
+          return (
+            <svg viewBox="0 0 224 113.5" {...props}>
+      <defs>
+        <style>
+          {
+            ".prefix__cls-1{fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:2px}"
+          }
+        </style>
+      </defs>
+      <g id="prefix__Camada_2" data-name="Camada 2">
+        <g id="prefix__Camada_1-2" data-name="Camada 1">
+          <path
+            className="prefix__cls-1"
+            d="M223 1H1v.5a111 111 0 00222 0V1zM113 1L57.5 97.13M112.79 1l55.71 96.5"
+          />
+        </g>
+      </g>
+    </svg>
+          );
+        case "GrandTemple":
+          return(
+            <svg viewBox="0 0 96 144" {...props}>
+            <g data-name="Camada 2">
+              <g data-name="Camada 1" strokeMiterlimit={10}>
+                <path
+                  d="M16.84 2h65A12.16 12.16 0 0194 14.16v115.68A12.16 12.16 0 0181.84 142H14.16A12.16 12.16 0 012 129.84v-113A14.84 14.84 0 0116.84 2z"
+                  fill="#662d91"
+                  stroke="#fff"
+                  strokeWidth={4}
+                />
+                <path
+                  fill="gray"
+                  stroke="#000"
+                  d="M56.4 128.22l-15.41.27-9.82-11.87 3.16-15.08 13.76-6.93 14 6.43 3.7 14.96-9.39 12.22z"
+                />
+              </g>
+            </g>
+          </svg>
+          );
+        case "Deities":
+          return(
+            <svg viewBox="0 0 96 144" {...props}>
+            <g data-name="Camada 2">
+              <g data-name="Camada 1" strokeMiterlimit={10}>
+                <path
+                  d="M16.84 2h65A12.16 12.16 0 0194 14.16v115.68A12.16 12.16 0 0181.84 142H14.16A12.16 12.16 0 012 129.84v-113A14.84 14.84 0 0116.84 2z"
+                  fill="#ccc"
+                  stroke="#fff"
+                  strokeWidth={4}
+                />
+                <path
+                  fill="gray"
+                  stroke="#000"
+                  d="M57.34 91.78l-18.47.33-11.78-14.24 3.79-18.08 16.5-8.32 16.79 7.72 4.43 17.94-11.26 14.65z"
+                />
+              </g>
+            </g>
+          </svg>
+          );
         default: 
         return;
     }
