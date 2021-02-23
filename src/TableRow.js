@@ -15,7 +15,7 @@ export default function TableRow(props) {
                 <input type="number" onBlur={changed} className="P1"></input>
             </td>
             <td>
-                <input type="number"onBlur={changed} className="P2"></input>
+                <input type="number" onBlur={changed} className="P2"></input>
             </td>
         </tr>
     );
