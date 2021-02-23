@@ -3,6 +3,7 @@
 .scorepad-container {
   table {
     border-collapse: collapse;
+    width: 35%;
   }
 
   tr td:first-child {
@@ -110,7 +111,7 @@
   .P1, .P2 {
     font-family: Georgia, serif;
     color: rgb(7, 7, 7);
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   }
 
