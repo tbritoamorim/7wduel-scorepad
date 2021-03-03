@@ -71,7 +71,7 @@ export default function Scorepad(props) {
         <table>
           <thead>
             <tr>
-              <th>A</th>
+              <th className="d-flex justify-center cards-row"></th>
               <th><input type='text' placeholder='nome'></input></th>
               <th><input type='text' placeholder='nome'></input></th>
             </tr>

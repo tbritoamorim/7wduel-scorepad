@@ -11,7 +11,7 @@
   }
 
   tr:last-child {
-    border-bottom: 3px solid black;
+    border-bottom: 0;
   }
 
   tr th:first-child {
@@ -20,7 +20,7 @@
 
   td, th {
     border-right: 3px solid black;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
   }
 
   input {
@@ -33,7 +33,7 @@
   .cards-row {
     height: 4rem;
     svg {
-      margin: 0.5rem 0;
+      margin: .5rem 0;
       height: 75%;
     }
   }
