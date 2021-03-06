@@ -1,7 +1,7 @@
 import './App.scss';
-import pantheon from './pantheon.jpg';
-import agoraImage from './agora.jpg';
-import Scorepad from './Scorepad';
+import pantheon from '../_images/pantheon.jpg';
+import agoraImage from '../_images/agora.jpg';
+import Scorepad from '../_components/Scorepad';
 import {React, useState} from 'react';
 
 function App() {

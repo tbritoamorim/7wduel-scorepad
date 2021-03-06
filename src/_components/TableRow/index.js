@@ -1,5 +1,5 @@
 import { React } from 'react';
-import Icon from './icon';
+import Icon from '../../_icons';
 
 export default function TableRow(props) {
     const changed = e => {

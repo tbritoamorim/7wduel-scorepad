@@ -251,22 +251,22 @@ function Icon(props) {
         case "Senate":
           return (
             <svg viewBox="0 0 224 113.5" {...props}>
-      <defs>
-        <style>
-          {
-            ".prefix__cls-1{fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:2px}"
-          }
-        </style>
-      </defs>
-      <g id="prefix__Camada_2" data-name="Camada 2">
-        <g id="prefix__Camada_1-2" data-name="Camada 1">
-          <path
-            className="prefix__cls-1"
-            d="M223 1H1v.5a111 111 0 00222 0V1zM113 1L57.5 97.13M112.79 1l55.71 96.5"
-          />
-        </g>
-      </g>
-    </svg>
+              <defs>
+                <style>
+                  {
+                    ".prefix__cls-1{fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:2px}"
+                  }
+                </style>
+              </defs>
+              <g id="prefix__Camada_2" data-name="Camada 2">
+                <g id="prefix__Camada_1-2" data-name="Camada 1">
+                  <path
+                    className="prefix__cls-1"
+                    d="M223 1H1v.5a111 111 0 00222 0V1zM113 1L57.5 97.13M112.79 1l55.71 96.5"
+                  />
+                </g>
+              </g>
+            </svg>
           );
         case "GrandTemple":
           return(

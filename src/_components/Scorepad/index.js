@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import TableRow from './TableRow';
+import TableRow from '../TableRow';
 import './scorepad.scss';
 
 
