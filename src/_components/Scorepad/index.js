@@ -27,14 +27,10 @@ export default function Scorepad(props) {
           return {...prevState, ...playerTotal}
         });
       } else if(resetSenate) {
-        console.log(refPoints.current);
-
         let playerPoints = {[`${player}`]: {...refPoints.current[`${player}`], [`${color}`]: newPoints}};
         let playerTotalInt = Object.values(playerPoints[`${player}`]).reduce((a, b) =>  a + b );
         let playerTotal = {[`${player}`]: playerTotalInt};
         setPoints(() => {
-          console.log({...refPoints.current, ...playerPoints});
-
           return {...refPoints.current, ...playerPoints}
         });
         setTotal(prevState => {
@@ -71,7 +67,7 @@ export default function Scorepad(props) {
         <table>
           <thead>
             <tr>
-              <th className="d-flex justify-center cards-row"></th>
+              <th className="d-flex justify-center cards-row">a</th>
               <th><input type='text' placeholder='nome'></input></th>
               <th><input type='text' placeholder='nome'></input></th>
             </tr>
